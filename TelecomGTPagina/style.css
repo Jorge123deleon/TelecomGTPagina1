@@ -1,0 +1,62 @@
+#menu {
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    width: 100%;
+    margin: auto;
+}
+
+.cuadrostienda{
+    text-decoration: primary;
+}
+
+.inidescripcion{
+    text-justify: center;
+}
+#footer {
+    bottom: 0;
+    padding: 19px 15px 20px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    left: 0;
+    background: #3d454e;
+}
+
+.submenu{
+    position: relative;
+}
+
+    .submenu #carrito {
+        display: none;
+    }
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px;
+    min-width: 400px;
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    color: #000000;
+}
+
+.borrar{
+    background-color: #0f5a85;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #808080;
+    font-weight: 800;
+
+}
